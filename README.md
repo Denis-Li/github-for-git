@@ -1,1 +1,1 @@
-# github-for-git
+# mavic-for-git
