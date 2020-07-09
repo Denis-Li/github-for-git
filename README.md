@@ -1,1 +1,2 @@
 # mavic-for-git
+mavic
