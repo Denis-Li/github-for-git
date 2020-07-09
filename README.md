@@ -1,3 +1,3 @@
 # mavic-for-git
 
-[Mavic](https://denis-li.github.io/mavic-for-git/app/ "Mavic")
+[Mavic](https:///mavic-for-git.github.io/app/ "Mavic")
