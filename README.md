@@ -1,2 +1,3 @@
 # mavic-for-git
-mavic
+
+[Mavic](https://denis-li.github.io/mavic-for-git/app/ "Mavic")
