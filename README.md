@@ -1,3 +1,3 @@
 # Denis Lira
 
-[Mavic](https://mavic-for-git.github.io/app/ "Mavic")
+[Mavic](https://denis-li.github.io/mavic-for-git/app/ "Mavic")
