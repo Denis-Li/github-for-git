@@ -20,4 +20,12 @@ $(function(){
         scrollHorizontally: true,
         sectionSelector: '.page-section',
     });
+
+    $('.menu__btn').on('click', function() {
+        $('.menu-mobile').toggleClass('menu-mobile--active');
+    });
+
+    $('.menu-mobile__btn').on('click', function(){
+        $('.menu-mobile').toggleClass('menu-mobile--active');
+    });
 });
