@@ -19,10 +19,13 @@ $(function(){
         autoScrolling:true,
         scrollHorizontally: true,
         sectionSelector: '.page-section',
+        scrollOverflow: true,
+        menu: '#header__nav',
+        anchors: ['top', 'products', 'benefits', 'specification', 'questions', 'contacts'],
     });
 
-    $('.menu__btn').on('click', function() {
-        $('.menu-mobile').toggleClass('menu-mobile--active');
+    $('.menu__btn0').on('click', function() {
+        $('.menu__btn0').toggleClass('menu__btn0--active');
     });
 
     $('.menu-mobile__btn').on('click', function(){

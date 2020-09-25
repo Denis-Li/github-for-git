@@ -14,32 +14,37 @@
 
   <header class="header">
     <div class="container">
-      <div class="header__inner">
-        <a class="logo" href="#">
-          <picture class="logo__img">
-            <source srcset="images/logo-mobile.png" media="(max-width: 600px)">
-            <img src="images/logo.png" alt="">
-          </picture>
-        </a>
+      <div id="header__nav" class="header__inner">
+        <div data-menuanchor="top">
+          <a class="logo" href="#top">
+            <picture class="logo__img">
+              <source srcset="images/logo-mobile.png" media="(max-width: 600px)">
+              <img src="images/logo.png" alt="">
+            </picture>
+          </a>
+        </div>
         <nav class="menu">
           <button class="menu__btn0">
             <span class="menu__btn0-line"></span>
           </button>
           <ul class="menu__list">
-            <li class="menu__list-item">
-              <a class="menu__list-link" href="#">О ДРОНЕ</a>
+            <li class="menu__list-item" data-menuanchor="products">
+              <a class="menu__list-link" href="#products">О ДРОНЕ</a>
             </li>
-            <li class="menu__list-item">
-              <a class="menu__list-link" href="#">ПРЕИМУЩЕСТВА</a>
+            <li class="menu__list-item" data-menuanchor="benefits">
+              <a class="menu__list-link" href="#benefits">ПРЕИМУЩЕСТВА</a>
             </li>
-            <li class="menu__list-item">
-              <a class="menu__list-link" href="#">ХАРАКТЕРИСТИКИ</a>
+            <li class="menu__list-item" data-menuanchor="specification">
+              <a class="menu__list-link" href="#specification">ХАРАКТЕРИСТИКИ</a>
             </li>
-            <li class="menu__list-item">
-              <a class="menu__list-link" href="#">ВОПРОСЫ</a>
+            <li class="menu__list-item" data-menuanchor="questions">
+              <a class="menu__list-link" href="#questions">ВОПРОСЫ</a>
             </li>
-            <li class="menu__list-item">
-              <a class="menu__list-link" href="#">КОНТАКТЫ</a>
+            <li class="menu__list-item" data-menuanchor="contacts">
+              <a class="menu__list-link" href="#contacts">КОНТАКТЫ</a>
+            </li>
+            <li class="menu__list-phone">
+              <a class="header__phone" href="tel:80505676767">8 (050) 567 67 67</a>
             </li>
           </ul>
         </nav>
@@ -81,7 +86,7 @@
 
   <main id="fullpage">
 
-    <section class="page-section top">
+    <section data-menuanchor="top" class="page-section top">
       <div class="page-section__wrapper top__wrapper">
         <div class="container">
           <div class="top__inner">
@@ -118,7 +123,7 @@
       </div>
     </section>
  
-    <section id="products" class="page-section products">
+    <section data-menuanchor="products" class="page-section products">
       <div class="page-section__wrapper">
         <div class="container">
           <h3 class="title products__title">Что такое Mavic 2 Pro?</h3>
@@ -164,7 +169,7 @@
       </div>
     </section>
 
-    <section id="benefits" class="page-section benefits">
+    <section data-menuanchor="benefits" class="page-section benefits">
       <div class="page-section__wrapper">
         <div class="container">
           <h3 class="title">Преимущества</h3>
@@ -249,7 +254,7 @@
       </div>
     </section>
 
-    <section id="specification" class="page-section specification">
+    <section data-menuanchor="specification" class="page-section specification">
       <div class="page-section__wrapper">
         <div class="container">
           <h3 class="title">Характеристики</h3>
@@ -302,7 +307,7 @@
       </div>
     </section>
 
-    <section id="questions" class="page-section questions">
+    <section data-menuanchor="questions" class="page-section questions">
       <div class="page-section__wrapper">
         <div class="container">
           <h3 class="title">Остались вопросы?</h3>
@@ -349,7 +354,7 @@
       </div>
     </section>
 
-    <section id="contacts" class="page-section contacts">
+    <section data-menuanchor="contacts" class="page-section contacts">
       <div class="page-section__wrapper">
         <div class="container">
           <h3 class="title">Контакты</h3>
