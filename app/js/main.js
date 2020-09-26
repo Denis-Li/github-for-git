@@ -29,5 +29,10 @@ $(function(){
         $('.menu__list').toggleClass('menu__list--active');
     });
 
+    $('.menu__list-link').on('click', function() {
+        $('.menu__btn0').removeClass('menu__btn0--active');
+        $('.menu__list').removeClass('menu__list--active');
+    });
+
     
 });
